@@ -3,6 +3,9 @@ import { useTranslation, withTranslation, Trans } from 'react-i18next';
 import logo from './logo.svg';
 import './App.css';
 
+// the hoc
+import { withNamespaces } from 'react-i18next';
+
 // use hoc for class based components
 class LegacyWelcomeClass extends Component {
   render() {
