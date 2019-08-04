@@ -15,9 +15,12 @@ const Welcome = withTranslation()(LegacyWelcomeClass);
 // Component using the Trans component
 function MyComponent() {
   return (
+    <div>
     <Trans i18nKey="description.part1">
       To get started, edit <code>src/App.js</code> and save to reload.
     </Trans>
+   
+    </div>
   );
 }
 
@@ -38,6 +41,11 @@ function Page() {
         <button onClick={() => changeLanguage('en')}>en</button>
       </div>
       <div className="App-intro">
+      <div>{t('description.part3', { 'interpolation': {'escapeValue': false} })}</div>
+
+      <div dangerouslySetInnerHTML={
+    {__html: t('description.part3', {interpolation: {escapeValue: false}})}
+} />
         <MyComponent />
       </div>
       <div>{t('description.part2')}</div>

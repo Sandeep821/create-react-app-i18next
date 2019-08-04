@@ -1,7 +1,8 @@
 {
     "title": "Welcome to react using react-i18next",
     "description": {
-      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-      "part2": "Switch language between english and german using buttons above."
+      "part1": "<h1>My First Heading</h1><p>This is a paragraph.</p><a href='https://www.w3schools.com' target='_blank'>This is a link</a>To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above.",
+      "part3": "<h1>HTML Content</h1><p>This is a paragraph.</p><a href='https://www.w3schools.com' target='_blank'>This is a link</a>"
     }
   }
