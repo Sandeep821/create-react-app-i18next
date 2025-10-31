@@ -1,4 +1,4 @@
-## CRA with i18Next
+## CRA with i18Next - Updated
 ### follow this docs - https://react.i18next.com/latest/using-with-hooks
 
 ## Available Scripts
